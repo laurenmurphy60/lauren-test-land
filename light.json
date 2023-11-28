@@ -1,0 +1,44 @@
+{
+  "button": {
+    "standard": {
+      "value": "{borderRadius.s}",
+      "type": "borderRadius"
+    },
+    "primary": {
+      "pressed": {
+        "value": {
+          "color": "{button.primary.pressed}",
+          "width": "2",
+          "style": "solid"
+        },
+        "type": "border"
+      }
+    }
+  },
+  "icon": {
+    "button": {
+      "value": "20",
+      "type": "sizing"
+    }
+  },
+  "background-colour": {
+    "button": {
+      "primary": {
+        "value": "{colors.navy.navy-500}",
+        "type": "color"
+      },
+      "primary-hover": {
+        "value": "{colors.navy.navy-400}",
+        "type": "color"
+      },
+      "primary-active": {
+        "value": "{colors.blue.blue-600}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{colors.grey.grey-100}",
+        "type": "color"
+      }
+    }
+  }
+}
